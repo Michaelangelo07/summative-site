@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="creation">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins%display=swap">
+    <title>Creation</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="/">B-1 Series Battle Droid - Creation</a>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <button>Home</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="a1">
+            <div class="text1">
+                <h2>The Website</h2>
+                <p>My goal for this project was to learn how to do two things; how to 3D print 3D models, and how to use 3D models in a website using ThreeJS. So, I started by following a ThreeJS tutorial while modelling my Star Wars droid in Blender in my spare time.</p>
+                <p>The tutorial I followed was one created by a web development youtuber called <i>developedbyed</i>, and the site showed you how to create a simple sphere and put it in the website, and then create the feature to spin the camera around by dragging with your mouse, with the colour of the sphere mesh changing depending on the location of the mouse on the screen.</p>
+                <p>I had two issues at the start, but after having somebody on Stack Overflow solve them for me, I was able to continue the site. The first issue was that I couldn't initialize my project using Vite, a tool that makes using Node.js and other javascript tools easier. The reason I was unable to initialize it in the terminal because my location in the terminal was in the wrong folder.</p>
+                <p>My other issue was that my material for my mesh was fully lit and wouldn't react to light, and the issue turned out to be that I was using a material called <i>MeshBasicMaterial</i> instead of <i>MeshStandardMatereial</i>. MeshBasicMaterial doesn't react to light. </p>
+                <p>After all of that was done, I had my 3D model finished, and I exported the model as a GLTF file, put it into the folder with all of the website files, and then added it into the site.</p>
+            </div>
+            <div class="image1">
+                <img src="threejs crash course.png" alt="Thumbnail of Youtube Tutorial I Used">
+            </div>
+        </div>
+        <div class="a2">
+            <div class="image2">
+                <img src="front.png" alt="Front Reference Photo I Used to Create the 3D Model" width=100% style="background-color: white">
+            </div>
+            <div class="text2">
+                <h2>The 3D Model Creation</h2>
+                <p>While I was creating my website, I was creating the model of the B-1 Series Battle Droid. I created this using Blender, and went through 3 iterations of the model. This is because up to this point, I hadn't done modelling in Blender in a while, so it took me a while to get used to it again.</p>
+                <p>Overall, the modelling took about 9 hours, with that time spread out over three days.</p>
+            </div>
+        </div>
+        <div class="a3">
+            <div class="text3">
+                <h2>The 3D Printing</h2>
+                <p>This is the part of the summative that I had the most issues. For starters, the only days three days to 3D print, and two of those days were spent solving issues. I encountered my first problem when slicing my STL file into a G3DREM file. To use the Dremel 3D printer, you need to use a G3DREm file, and to get that type of file you had to slice an STL file (basically convert it).</p>
+                <p>My issues with this was that the file wouldn't slice properly. When previewing my G3DREM file, only small parts of the model were there, and most of the viewport was blank. There was an error somewhere in the model, and after a bit of troubleshooting I found a YouTube video showcasing how to use Windows 3D Builder to repair errors in 3D models. So, I downloaded the software, and although I never figured out what the error was (I think there may have been a missing vertice somewhere on the model), the tool repaired the model, and then the slicing went perfectly fine.</p>
+                <p>By this point, it was Wednesday, and I only had Wednesday and Thursday to 3D print. You'd think this wouldn't be a huge issue, but because there was four of us 3D printing, I only really had Wednesday because two of the other students in the class wanted to use it on Thursday. So, without knowing what the size of the print would be, I printed the model, which took 2 hours and 12 minutes.</p>
+                <p>One thing to note before getting to how the print went is that my model was very skinny with lots of overhangs, and those overhangs are the reason why the print ended up so small. At the end of the day on Wednesday, I went to get my model, and like in the viewport of the Dremel software, it was covered in supports. However, the model was so small that certain parts of the arm and body were missing, and along with that, the supports were very hard to remove without also removing parts of the model. So, without having any other time to print the model, I settled with the model I had.</p>
+            </div>
+            <div class="image3">
+                <div class="droids">
+                    <img src="Droid 1.png" alt="3D Printed Droid" width="40%">
+                    <img src="Droid 2.png" alt="Droid Being 3D Printed" width="40%" id="funkytown">
+                </div>
+                
+            </div>
+        </div>
+        <div class="a4"></div>
+        <div class="a5"></div>
+    </main>
+</body>
+</html>

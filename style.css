@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.normal{
+    background-color: black;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav{
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem
+}
+
+button{
+    background: none;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+main{
+    flex-grow: 1;
+}
+
+main article{
+    display: grid;
+    height: 100%;
+}
+
+main article .article-section{
+    height: 100%;
+    border: 1px solid white;
+}
+
+.a1,.a2,.a3{
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.a2,.a3,.a4{
+    padding-top: 6rem;
+}
+
+.a1 h2{
+    padding-right: 15rem;
+}
+
+.a1 p{
+    padding-right: 15rem;
+}
+
+h2{
+    padding-bottom: 2rem;
+}
+
+p{
+    padding-bottom: 1rem;
+}
+
+.a1 h1{
+    padding-right: 5rem;
+}
+
+h2,p,h1{
+    color: white;
+}
+
+.a2 h2{
+    padding-left: 15rem;
+}
+
+.a2 p{
+    padding-left: 15rem;
+}
+
+.a2 h1{
+    padding-left: 5rem;
+}
+
+.a3 h2{
+    padding-right: 15rem;
+}
+
+.a3 p{
+    padding-right: 15rem;
+}
+
+.a3 h1{
+    padding-right: 5rem;
+}
+
+.creation{
+    background-image: linear-gradient(0deg, #000000 0%, #1a1a1a 100%)
+}
+
+.text1 h2{
+    background-image: linear-gradient(90deg, #e9605e, #e02c29);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text2 h2{
+    background-image: linear-gradient(90deg, #fc00ff, #00dbde);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text3 h2{
+    background-image: linear-gradient(90deg, #f1f2b5, #135058);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    height: 150%;
+  }
+  body{
+    min-height: 100%;
+  }
+
+  .droids{
+    display: flex;
+  }
+
+  .droids img{
+    padding-left: 5rem;
+  
+  }
+
+  #funkytown{
+    padding-right: -20rem;
+  }
